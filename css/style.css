@@ -1,1 +1,86 @@
 /* Denna fil skall innehålla din CSS kod */
+#wrapperhem {
+    background-color: aliceblue;
+    display: grid;
+    grid-template-areas:
+    "nv nv nv" 
+    "s1 s1 s1"
+    "s2-1 s2-2 s2-3"
+    "s3 s3 s3"
+    "s4 s4 s4"
+    "ft ft ft"
+    ;
+    width: 100%;
+}
+#wrapperpraliner {
+    background-color: aliceblue;
+}
+#wrapperdesserter {
+    background-color: aliceblue;
+}
+#wrapperpresentaskar {
+    background-color: aliceblue;
+}
+#wrapperabonnera {
+    background-color: aliceblue;
+}
+#wrapperprovningar {
+    background-color: aliceblue;
+}
+
+nav {
+    background-color: aliceblue;
+    grid-area: nv;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+header {
+    background-color: aliceblue;
+}
+footer {
+    background-color: aliceblue;
+    grid-area: ft;
+}
+aside {
+    background-color: aliceblue;
+    grid-area: as;
+}
+
+#section1 {
+    background-color: aliceblue;
+    grid-area: s1;
+}
+#section2 {
+    background-color: aliceblue;
+    grid-area: s2-1;
+}
+#section3 {
+    background-color: aliceblue;
+    grid-area: s3;
+}
+#section4 {
+    background-color: aliceblue;
+    grid-area: s4;
+}
+#section5 {
+    background-color: aliceblue;
+    grid-area: s5;
+}
+#section6 {
+    background-color: aliceblue;
+    grid-area: s6;
+}
+#section7 {
+    background-color: aliceblue;
+    grid-area: s7;
+}
+#section8 {
+    background-color: aliceblue;
+    grid-area: s8;
+}
+#section9 {
+    background-color: aliceblue;
+    grid-area: s9;
+}
