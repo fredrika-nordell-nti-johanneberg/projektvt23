@@ -9,7 +9,7 @@
     "s4"
     "ft"
     ;
-    grid-template-rows: 10vh auto 50vh auto auto 20vh;
+    grid-template-rows: 10vh auto auto auto auto 15vh;
     grid-template-columns: 1fr;
     width: 100%;
     margin: auto;
@@ -56,8 +56,17 @@ header {
 }
 
 footer {
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     grid-area: ft;
+}
+footer p {
+    display: flex;
+    justify-content: center;
+}
+footer img {
+    display: block;
+    margin: auto;
+    height: 9vh;
 }
 
 aside {
@@ -69,6 +78,21 @@ aside {
 #section1 {
     background-color: #996531;
     grid-area: s1;
+    
+}
+#section1 h1 {
+    margin: 1rem 0rem 0rem 2rem;
+    font-size: 20pt;
+    color: #ffffff;
+}
+#section1 img {
+    float:left;
+    margin: 1rem 2rem 2rem 2rem;
+    border-radius: 10px;
+}
+#section1 p {
+    font-size: 13pt;
+    color: #ffffff;
 }
 
 #section2 {
@@ -85,8 +109,14 @@ aside {
     width: 33vw;
     height: 42vh; 
 }
+#section2 article h3 {
+    padding-left: 10px;
+    font-size: medium;
+}
 #section2 article p {
     padding-left: 10px;
+    padding-right: 30px;
+    font-size: 11pt;
 }
 
 #section3 {
@@ -96,7 +126,7 @@ aside {
     
 }
 #section3 h2 {
-    font-size: large;
+    font-size: larger;
     color: rgb(255, 255, 255);
 }
 #section3 p {
@@ -114,9 +144,10 @@ aside {
     float: right;
 }
 #section4 h2 {
-    font-size: large;
-    width: 50%;
-    margin: none;
+    font-size: larger;
+}
+#section4 p {
+    width: 45%;
 }
 
 #section5 {
