@@ -1,5 +1,5 @@
 #wrapperhem {
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     display: grid;
     grid-template-areas:
     "nv" 
@@ -23,6 +23,14 @@
 }
 #wrapperpresentaskar {
     background-color: aliceblue;
+    grid-template-areas: 
+    "nv"
+    "hd"
+    "s9"
+    "s10"
+    "ft";
+    display: grid;
+    grid-template-rows: 10vh 30vh auto auto 15vh;
 }
 #wrapperabonnera {
     background-color: aliceblue;
@@ -33,7 +41,7 @@
 
 
 nav {
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     grid-area: nv;
     display: flex;
     justify-content: flex-end;
@@ -51,9 +59,19 @@ nav ul li a {
     color: black;
 }
 
+
 header {
     background-color: aliceblue;
+    grid-area: hd;
+    display: flex;
 }
+header h1 {
+    font-size: 25pt;
+    /* justify-content: center; */
+    text-align: center;
+    /* align-items: center; */
+}
+
 
 footer {
     background-color: rgb(255, 255, 255);
@@ -62,12 +80,14 @@ footer {
 footer p {
     display: flex;
     justify-content: center;
+    font-size: 10pt;
 }
 footer img {
     display: block;
     margin: auto;
     height: 9vh;
 }
+
 
 aside {
     background-color: aliceblue;
@@ -89,17 +109,21 @@ aside {
     float:left;
     margin: 1rem 2rem 2rem 2rem;
     border-radius: 10px;
+    height: 40vh;
 }
 #section1 p {
     font-size: 13pt;
     color: #ffffff;
+    padding-right: 2rem;
 }
+
 
 #section2 {
     background-color: #ffffff;
     grid-area: s2;
     display: flex;
     justify-content: space-around;
+    margin: auto auto 40px auto;
 }
 #section2 article {
     background-color: #ffffff;
@@ -118,12 +142,17 @@ aside {
     padding-right: 30px;
     font-size: 11pt;
 }
+#section2 article ul {
+    list-style: none;
+    padding: 10px;
+    margin: 5px 0 5px 0;
+}
+
 
 #section3 {
     background-color: #3d250d;
     grid-area: s3;
-    padding-inline: 10px
-    
+    padding-inline: 15px
 }
 #section3 h2 {
     font-size: larger;
@@ -131,12 +160,14 @@ aside {
 }
 #section3 p {
     color: rgb(255, 255, 255);
+    padding-right:20px ;
 }
+
 
 #section4 {
     background-color: #a2815d;
     grid-area: s4;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 #section4 img {
     width: 50%;
@@ -145,32 +176,69 @@ aside {
 }
 #section4 h2 {
     font-size: larger;
+    margin: 30px auto 30px auto;
 }
 #section4 p {
     width: 45%;
+    font-size: 12pt;
 }
+
 
 #section5 {
     background-color: aliceblue;
     grid-area: s5;
 }
 
+
 #section6 {
     background-color: aliceblue;
     grid-area: s6;
 }
+
 
 #section7 {
     background-color: aliceblue;
     grid-area: s7;
 }
 
+
 #section8 {
     background-color: aliceblue;
     grid-area: s8;
 }
 
+
 #section9 {
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     grid-area: s9;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-right: 20px; ;
+}
+#section9 img {
+    height: 52vh;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 3vh;
+}
+#section9 h3 {
+    font-size: 12pt;
+}
+#section9 ul {
+    padding-left: 20px;
+}
+
+
+#section10 {
+    background-color: #ffffff;
+    grid-area: s10;
+    display: flex;
+}
+#section10 img {
+    height: 34vh;
+    width: 20vw;
+}
+#section10 article p {
+    padding-left: 10px;
+    margin: auto;
 }
