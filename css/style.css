@@ -17,9 +17,23 @@
 }
 #wrapperpraliner {
     background-color: aliceblue;
+    display: grid;
+    grid-template-areas: 
+    "nv"
+    "hd"
+    "s5"
+    "s6"
+    "ft";
 }
 #wrapperdesserter {
     background-color: aliceblue;
+    display: grid;
+    grid-template-areas: 
+    "nv"
+    "hd"
+    "s7"
+    "s8"
+    "ft";
 }
 #wrapperpresentaskar {
     background-color: aliceblue;
@@ -61,15 +75,16 @@ nav ul li a {
 
 
 header {
-    background-color: aliceblue;
+    background-color: rgb(54, 37, 18);
     grid-area: hd;
     display: flex;
+    height: 30vh; 
+    align-items: center;
+    justify-content: center;
 }
 header h1 {
-    font-size: 25pt;
-    /* justify-content: center; */
-    text-align: center;
-    /* align-items: center; */
+    font-size: 30pt;
+    color: #ffffff;
 }
 
 
@@ -193,18 +208,51 @@ aside {
 #section6 {
     background-color: aliceblue;
     grid-area: s6;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+#section6 img {
+    height: 20vh;
+}
+#section6 article {
+    justify-content: center;
+}
+#section6 article h3 {
+    font-size: 20pt;
+    /* justify-self: center; */
+    /* padding: 0 35% 0 35%; */
 }
 
 
 #section7 {
     background-color: aliceblue;
     grid-area: s7;
+    padding: 20px 20px 10px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12pt;
 }
 
 
 #section8 {
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     grid-area: s8;
+    display: flex;
+    flex-wrap: wrap;
+}
+#section8 img {
+    height: 50vh;
+    margin: 15px;
+}
+#section8 p {
+    padding: 20px 10px 5px 10px;
+    margin: auto;
+}
+#section8 ul li {
+    list-style: none
+}
+#section8 ul {
+    padding-left: 10px;
 }
 
 
