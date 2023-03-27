@@ -22,7 +22,10 @@
     "nv"
     "hd"
     "s5"
+    "s11"
     "s6"
+    "s12"
+    "s13"
     "ft";
 }
 #wrapperdesserter {
@@ -206,22 +209,24 @@ aside {
 
 
 #section6 {
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     grid-area: s6;
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
+    justify-content: center;
 }
 #section6 img {
-    height: 20vh;
+    height: 25vh;
+    /* width: 10vw; */
 }
 #section6 article {
     justify-content: center;
+    width: 15vw;
+    margin: 1.5rem;
 }
-#section6 article h3 {
-    font-size: 20pt;
-    /* justify-self: center; */
-    /* padding: 0 35% 0 35%; */
+#section6 article p {
+    font-size: 11pt;
+    margin: 0.5rem;
 }
 
 
@@ -269,9 +274,6 @@ aside {
     padding-right: 20px;
     padding-bottom: 3vh;
 }
-#section9 h3 {
-    font-size: 12pt;
-}
 #section9 ul {
     padding-left: 20px;
 }
@@ -289,4 +291,73 @@ aside {
 #section10 article p {
     padding-left: 10px;
     margin: auto;
+}
+
+
+#section11 {
+    grid-area: s11;
+    font-size: 13pt;
+    display: flex;
+    justify-content: center;
+    background-color: #a2815d;
+}
+
+
+#section12 {
+    grid-area: s12;
+    font-size: 13pt;
+    display: flex;
+    justify-content: center;
+    background-color: #a2815d;
+}
+
+
+#section13 {
+    background-color: rgb(255, 255, 255);
+    grid-area: s13;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#section13 img {
+    height: 25vh;
+}
+#section13 article {
+    justify-content: center;
+    width: 15vw;
+    margin: 1.5rem;
+}
+#section13 article p {
+    font-size: 11pt;
+    margin: 0.5rem;
+}
+
+
+#section14 {
+    grid-area: s14;
+    font-size: 13pt;
+    display: flex;
+    justify-content: center;
+    background-color: #a2815d;
+}
+
+
+#section15 {
+    background-color: rgb(255, 255, 255);
+    grid-area: s13;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#section15 img {
+    height: 25vh;
+}
+#section15 article {
+    justify-content: center;
+    width: 15vw;
+    margin: 1.5rem;
+}
+#section15 article p {
+    font-size: 11pt;
+    margin: 0.5rem;
 }
