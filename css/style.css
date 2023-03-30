@@ -26,6 +26,10 @@
     "s6"
     "s12"
     "s13"
+    "s14"
+    "s15"
+    "s16"
+    "s17"
     "ft";
 }
 #wrapperdesserter {
@@ -51,14 +55,25 @@
 }
 #wrapperabonnera {
     background-color: aliceblue;
+    display: grid;
+    grid-template-areas: 
+    "nv nv"
+    "hd hd"
+    "s18 s19"
+    "ft ft";
+    grid-template-columns: 1fr 1fr;
 }
 #wrapperprovningar {
     background-color: aliceblue;
 }
 
+body {
+    margin: 0;
+}
 
 nav {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(100, 60, 33);
+    opacity: 60%;
     grid-area: nv;
     display: flex;
     justify-content: flex-end;
@@ -70,15 +85,20 @@ nav ul {
 nav ul li {
     list-style: none;
     margin: 0 3rem 0 3rem;
+    opacity: 100%;
 }
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
+}
+nav img {
+    height: 2vh;
+    float: inline-start;
 }
 
 
 header {
-    background-color: rgb(54, 37, 18);
+    background-color: #42271B;
     grid-area: hd;
     display: flex;
     height: 30vh; 
@@ -203,8 +223,10 @@ aside {
 
 
 #section5 {
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     grid-area: s5;
+    padding: 30px;
+    font-size: 13pt;
 }
 
 
@@ -231,7 +253,7 @@ aside {
 
 
 #section7 {
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     grid-area: s7;
     padding: 20px 20px 10px 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -299,7 +321,10 @@ aside {
     font-size: 13pt;
     display: flex;
     justify-content: center;
-    background-color: #a2815d;
+    background-color: #42271B;
+}
+#section11 h3 {
+    color: #ffffff;
 }
 
 
@@ -308,7 +333,10 @@ aside {
     font-size: 13pt;
     display: flex;
     justify-content: center;
-    background-color: #a2815d;
+    background-color: #42271B;
+}
+#section12 h3 {
+    color: #ffffff;
 }
 
 
@@ -338,13 +366,16 @@ aside {
     font-size: 13pt;
     display: flex;
     justify-content: center;
-    background-color: #a2815d;
+    background-color: #42271B;
+}
+#section14 h3 {
+    color: #ffffff;
 }
 
 
 #section15 {
     background-color: rgb(255, 255, 255);
-    grid-area: s13;
+    grid-area: s15;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -360,4 +391,87 @@ aside {
 #section15 article p {
     font-size: 11pt;
     margin: 0.5rem;
+}
+
+#section16 {
+    grid-area: s16;
+    font-size: 13pt;
+    display: flex;
+    justify-content: center;
+    background-color: #42271B;
+}
+#section16 h3 {
+    color: #ffffff;
+}
+
+
+#section17 {
+    background-color: rgb(255, 255, 255);
+    grid-area: s17;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#section17 img {
+    height: 25vh;
+}
+#section17 article {
+    justify-content: center;
+    width: 15vw;
+    margin: 1.5rem;
+}
+#section17 article p {
+    font-size: 11pt;
+    margin: 0.5rem;
+}
+
+
+#section18 {
+    background-color: rgb(255, 255, 255);
+    grid-area: s18;
+    
+}
+#section18 article {
+    justify-content: center;
+    margin: 20px;
+}
+#section18 img {
+    width: 45vw;
+}
+#section18 h2 {
+    margin: 20px 0 20px 0;
+}
+#section18 h3 {
+    font-size: 11pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#section18 article p {
+    padding: 5px 0 20px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#section18 ul li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#section19 {
+    background-color: rgb(255, 255, 255);
+    grid-area: s19;
+}
+#section19 img {
+    width: 45vw;
+}
+#section19 h3 {
+    font-size: 11pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#section19 article {
+    margin: 20px;
+}
+#section19 article p {
+    padding-bottom: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#section19 ul li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
